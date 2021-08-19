@@ -1,0 +1,5 @@
+Credentials cache: API:268E18A1-0C21-4FE1-9BC9-3D58F569AB7F
+        Principal: dvilard@42LYON.FR
+
+  Issued                Expires               Principal
+Aug  2 13:28:06 2021  Aug  3 13:28:06 2021  krbtgt/42LYON.FR@42LYON.FR
