@@ -1,0 +1,19 @@
+/*ft_split.c
+ * initialise **strs, it, wc, ln
+ * si on est dans le charset alors :
+ *      - str sera egale au prochain mot
+ * wc lui est egale au compteur de mot
+ * on malloc strs en fonction du wc, + 1 pour le 0
+ * si on peut pas malloc alors on retourne 0
+ * it est egale a 0
+ * tant que str n'est pas egale a "\0" et it est inferieur a wc
+ *      - ln sera egale a 0
+ *      - tant que str en position de ln et si on est pas dans le charset
+ *          - on increment ln
+ *      - on malloc strs en position de it en fonction de ln
+ *      - si on peut pas malloc alors on retourne 0
+ *      et on copy  str dans strs en position de it (que l'on incremente) et ce sur la longueur ln
+ *      et str est egale au prochain mot
+ * le dernier str en position wc sera egale a 0
+ * et on retourne strs
+ * */
